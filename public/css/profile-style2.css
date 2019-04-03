@@ -1,0 +1,120 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+
+.mt {
+    margin-top: 100px;
+}
+
+a {
+    color: #f2f2f2;
+}
+a:hover {
+    color: #f2f2f2;
+}
+
+  /*
+ * Header
+ */
+.masthead {
+    margin-bottom: 2rem;
+}
+
+.masthead-brand {
+    cursor: pointer;
+    float: left;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Josefin Sans";
+    border-bottom: 0.25rem solid transparent;
+}
+
+.masthead-brand:hover,
+.masthead-brand:focus {
+    color: #fff;
+}
+
+.nav {
+    display: block;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+/* <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav link" data-toggle="tab" href="#profile" aria-expanded="">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav link" data-toggle="tab" href="#history" aria-expanded="">History</a>
+                        </li>
+                    </ul>
+                <div class="tab-content">
+                    <div class="tab-pane" id="profile">
+                        <hr>
+                        <form class="form" action="" method="POST" id="registrationForm">
+                            <div class="form-group">
+                                <div class="col-xs-6">
+                                    <label for="first name">
+                                        <h5>First Name</h5>
+                                    </label>
+                                    <input type="text" class="form-control" name="first_name" id="first_name" placeholder="First name" title="Enter your first name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-6">
+                                    <label for="last name">
+                                        <h5>Last Name</h5>
+                                    </label>
+                                    <input type="text" class="form-control" name="last_name" id="last_name" placeholder="Last name" title="Enter your last name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-6">
+                                    <label for="email">
+                                        <h5>Email</h5>
+                                    </label>
+                                    <input type="text" class="form-control" name="email" id="email" placeholder="Email" title="Enter your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-6">
+                                    <label for="password">
+                                        <h5>Password</h5>
+                                    </label>
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" title="Enter your Password" required>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div> */

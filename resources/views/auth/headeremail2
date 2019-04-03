@@ -1,0 +1,27 @@
+	{{-- <header class="masthead mb-auto fixed-top bg-dark">
+					<nav class="navbar navbar-expand-md navbar-dark">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="inner px-2 collapse navbar-collapse" id="navbarCollapse">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+							<a class="masthead-brand nav-link" href="cover.html">Home</a>
+							</li>
+							<li class="nav-item">
+							<a class="masthead-brand nav-link" href="about.html">About</a>
+							</li>
+							<li class="nav-item">
+							<a class="masthead-brand nav-link" href="features.html">Features</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+							<a class=" masthead-brand nav-link" href="sign_up.html">Register</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+							</li>
+						</ul>
+						</div>
+					</nav>
